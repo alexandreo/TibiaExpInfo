@@ -18,10 +18,10 @@ Func getTibiaHealer()
    $healar = _MemoryRead('0x0012E844', $Mem_Open)   
    return $healar
 EndFunc   
-$Form1_1 = GUICreate("Tibiaexp Bot Heal", 412, 237, 504, 257)
-$Group1 = GUICtrlCreateGroup("Tibia Exp Bot Heal", 8, 8, 393, 217)
+$Form1_1 = GUICreate("Tibiaexp CharInfo", 412, 237, 504, 257)
+$Group1 = GUICtrlCreateGroup("Tibiaexp CharInfo", 8, 8, 393, 217)
 $txt_ativa = GUICtrlCreateCheckbox("Active", 184, 136, 57, 17)
-;~ $Label3 = GUICtrlCreateLabel("Ale balboa", 24, 40, 118, 17)
+;~ $Label3 = GUICtrlCreateLabel("Char", 24, 40, 118, 17)
 ;~ GUICtrlSetColor(-1, 0xFF0000)
 ;~ GUICtrlSetCursor (-1, 3)
 $Group2 = GUICtrlCreateGroup("Info Player", 16, 24, 145, 89)
