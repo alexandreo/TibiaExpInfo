@@ -18,7 +18,6 @@ Func getTibiaHealer()
    $healar = _MemoryRead('0x0012E844', $Mem_Open)   
    return $healar
 EndFunc   
-#Region ### START Koda GUI section ### Form=c:\documents and settings\ongame.alexandreo\meus documentos\ale_bot\tibiaexp\form\tibiaexp.kxf
 $Form1_1 = GUICreate("Tibiaexp Bot Heal", 412, 237, 504, 257)
 $Group1 = GUICtrlCreateGroup("Tibia Exp Bot Heal", 8, 8, 393, 217)
 $txt_ativa = GUICtrlCreateCheckbox("Active", 184, 136, 57, 17)
